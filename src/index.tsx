@@ -9,12 +9,10 @@ import "./styles/index.css";
 
 const App = () => (
   <Router>
-    {/* <div className="container"> */}
     <Switch>
       <Route exact path="/collection" component={Collection} />
       <Route exact path="/create-card" component={CreateCard} />
     </Switch>
-    {/* </div> */}
   </Router>
 );
 
